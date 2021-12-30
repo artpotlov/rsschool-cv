@@ -1,1 +1,1 @@
-# Init Project
+https://artpotlov.github.io/rsschool-cv/cv
