@@ -1,1 +1,1 @@
-# Init Project
+# rsschool-cv
