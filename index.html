@@ -4,10 +4,121 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     <title>CV</title>
 </head>
 <body>
-    <h1>Task 2: CV#2. HTML, CSS & Git Basics</h1>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#profile" class="nav-link">Profile</a></li>
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                    <li class="nav-item"><a href="#aboutme" class="nav-link">About me</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                    <li class="nav-item"><a href="#work" class="nav-link">Work Experience</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container main-container">
+            <section class="section" id="profile">
+                <img src="" alt="Avatar">
+                <h1>Artem Potlov</h1>
+                <h2>Junior Fronted Developer</h2>
+            </section>
+            <section class="section" id="contacts">
+                <h2>Contact information:</h2>
+                <ul class="list">
+                    <li class="list-item">Email: <a href="mailto:potlov.artem@gmail.com" target="_blank" class="list-link">potlov.artem@gmail.com</a></li>
+                    <li class="list-item">Telegram: <a href="https://t.me/artpotlov" target="_blank" class="list-link">@artpotlov</a></li>
+                    <li class="list-item">Discord: Artem (@artpotlov)</li>
+                    <li class="list-item">Behance: <a href="https://behance.net/artpotlov" target="_blank" class="list-link">@artpotlov</a></li>
+                    <li class="list-item">More contacts: <a href="https://uadd.me/artpotlov" target="_blank" class="list-link">uadd.me</a></li>
+                </ul>
+            </section>
+            <section class="section" id="aboutme">
+                <h2>About me</h2>
+                <p>
+                    I'm UI / UX designer. The goal is to become a front-end developer and expand your knowledge in this area.
+                </p>
+            </section>
+            <section class="section" id="skills">
+                <h2>Technical skills</h2>
+                <ul class="list">
+                    <li class="list-item">HTML</li>
+                    <li class="list-item">CSS</li>
+                    <li class="list-item">JavaScript</li>
+                    <li class="list-item">PHP</li>
+                    <li class="list-item">Figma</li>
+                </ul>
+            </section>
+            <section class="section" id="code">
+                <h2>Code</h2>
+                <p>KATA from <a href="https://www.codewars.com/kata/54bf1c2cd5b56cc47f0007a1" class="link">CodeWars</a></p>
+                <p>
+                    Write a function that will return the count of <b>distinct case-insensitive</b> alphabetic characters and numeric digits that occur more than once in the input string. The input string can be assumed to contain only alphabets (both uppercase and lowercase) and numeric digits.
+                </p>
+                <pre>
+                    function duplicateCount(text){
+                        text = text.toLowerCase();
+                        let count = 0;
+                        while(text.length > 0){
+                          for(let i = 1; i < text.length; i++) {
+                            if(text[0] === text[i]){
+                              count++;
+                              break;
+                            }
+                          }
+                          text = text.split(text[0]).join('');
+                        }
+                        return count;
+                      }
+                </pre>
+            </section>
+            <section class="section" id="work">
+                <h2>Work Experience</h2>
+                <ul class="list">
+                    <li class="list-item">2018 — 2019. Murom Institute. Designer.</li>
+                    <li class="list-item">2019 — 2022. Freelance. UI / UX Designer</li>
+                </ul>
+            </section>
+            <section class="section" id="Education">
+                <h2>Education</h2>
+                <h3>Higher education</h3>
+                <ul class="list">
+                    <li class="list-item">
+                        2019. Murom Institute (branch) Federal state budgetary Educational Institution of Higher Education "Vladimir State University named after Alexader Grigoryevich and Nickolay Grigoryevich Stoletovs". Information Systems and Technologies
+                    </li>
+                </ul>
+                <h3>Courses</h3>
+                <ul class="list">
+                    <li class="list-item">
+                        2021. SQL. Interactive simulator. Stepik.org (<a href="https://stepik.org/cert/947678" target="_blank">certificate</a>)
+                    </li>
+                </ul>
+            </section>
+            <section class="section" id="languages">
+                <h2>Languages</h2>
+                <ul class="list">
+                    <li class="list-item">English — A1</li>
+                    <li class="list-item">Russian — Native</li>
+                </ul>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <section>Copyright</section>
+            <section>Rsschool logo</section>
+        </div>
+    </footer>
 </body>
 </html>
