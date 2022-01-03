@@ -4,10 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/styles/default.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/highlight.min.js"></script>
+    <link rel="stylesheet" href="./styles/style.css">
     <title>CV</title>
 </head>
 <body>
@@ -21,6 +24,7 @@
                     <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
                     <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
                     <li class="nav-item"><a href="#work" class="nav-link">Work Experience</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
                     <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
                     <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
                 </ul>
@@ -30,18 +34,18 @@
     <main class="main">
         <div class="container main-container">
             <section class="section" id="profile">
-                <img src="" alt="Avatar">
+                <img class="user-avatar" src="./assets/avatar.png" alt="CV avatar">
                 <h1>Artem Potlov</h1>
-                <h2>Junior Fronted Developer</h2>
+                <h3>Junior Fronted Developer</h3>
             </section>
             <section class="section" id="contacts">
-                <h2>Contact information:</h2>
+                <h2>Contact information</h2>
                 <ul class="list">
-                    <li class="list-item">Email: <a href="mailto:potlov.artem@gmail.com" target="_blank" class="list-link">potlov.artem@gmail.com</a></li>
-                    <li class="list-item">Telegram: <a href="https://t.me/artpotlov" target="_blank" class="list-link">@artpotlov</a></li>
+                    <li class="list-item">Email: <a href="mailto:potlov.artem@gmail.com" target="_blank" class="link">potlov.artem@gmail.com</a></li>
+                    <li class="list-item">Telegram: <a href="https://t.me/artpotlov" target="_blank" class="link">@artpotlov</a></li>
                     <li class="list-item">Discord: Artem (@artpotlov)</li>
-                    <li class="list-item">Behance: <a href="https://behance.net/artpotlov" target="_blank" class="list-link">@artpotlov</a></li>
-                    <li class="list-item">More contacts: <a href="https://uadd.me/artpotlov" target="_blank" class="list-link">uadd.me</a></li>
+                    <li class="list-item">Behance: <a href="https://behance.net/artpotlov" target="_blank" class="link">@artpotlov</a></li>
+                    <li class="list-item">More contacts: <a href="https://uadd.me/artpotlov" target="_blank" class="link">uadd.me</a></li>
                 </ul>
             </section>
             <section class="section" id="aboutme">
@@ -67,20 +71,22 @@
                     Write a function that will return the count of <b>distinct case-insensitive</b> alphabetic characters and numeric digits that occur more than once in the input string. The input string can be assumed to contain only alphabets (both uppercase and lowercase) and numeric digits.
                 </p>
                 <pre>
-                    function duplicateCount(text){
-                        text = text.toLowerCase();
-                        let count = 0;
-                        while(text.length > 0){
-                          for(let i = 1; i < text.length; i++) {
-                            if(text[0] === text[i]){
-                              count++;
-                              break;
-                            }
-                          }
-                          text = text.split(text[0]).join('');
-                        }
-                        return count;
-                      }
+                    <code class="language-js">
+function duplicateCount(text){
+  text = text.toLowerCase();
+  let count = 0;
+  while(text.length > 0){
+    for(let i = 1; i &lt; text.length; i++) {
+      if(text[0] === text[i]){
+        count++;
+        break;
+      }
+    }
+    text = text.split(text[0]).join('');
+  }
+  return count;
+}
+                    </code>
                 </pre>
             </section>
             <section class="section" id="work">
@@ -90,7 +96,13 @@
                     <li class="list-item">2019 — 2022. Freelance. UI / UX Designer</li>
                 </ul>
             </section>
-            <section class="section" id="Education">
+            <section class="section" id="projects">
+                <h2>Projects</h2>
+                <ul class="list">
+                    <li class="list-item"><a href="https://github.com/artpotlov/rsschool-cv" target="_blank" class="link">CV Project</a></li>
+                </ul>
+            </section>
+            <section class="section" id="education">
                 <h2>Education</h2>
                 <h3>Higher education</h3>
                 <ul class="list">
@@ -101,7 +113,7 @@
                 <h3>Courses</h3>
                 <ul class="list">
                     <li class="list-item">
-                        2021. SQL. Interactive simulator. Stepik.org (<a href="https://stepik.org/cert/947678" target="_blank">certificate</a>)
+                        2021. SQL. Interactive simulator. Stepik.org (<a href="https://stepik.org/cert/947678" target="_blank" class="link">certificate</a>)
                     </li>
                 </ul>
             </section>
@@ -115,10 +127,16 @@
         </div>
     </main>
     <footer class="footer">
-        <div class="container">
-            <section>Copyright</section>
-            <section>Rsschool logo</section>
+        <div class="container main-container-footer">
+            <div class="section copyright">
+                <span>© 2022</span>
+            </div>
+            <div class="section footer-section-links">
+                <a href="https://github.com/artpotlov" target="_blank" class="footer-link"><img class="footer-img" src="./assets/github-logo.svg" alt="Github Logo"></a>
+                <a href="https://rs.school/js" target="_blank" class="footer-link"><img class="footer-img" src="./assets/rs_school_js.svg" alt="RS School JS Logo"></a>
+            </div>
         </div>
     </footer>
+    <script>hljs.highlightAll();</script>
 </body>
 </html>
