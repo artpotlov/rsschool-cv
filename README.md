@@ -1,1 +1,2 @@
-# Init Project
+- [artpotlov.github.io/rsschool-cv/cv](https://artpotlov.github.io/rsschool-cv/cv)
+- [artpotlov.github.io/rsschool-cv](https://artpotlov.github.io/rsschool-cv)
