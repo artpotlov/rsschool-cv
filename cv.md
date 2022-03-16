@@ -19,12 +19,11 @@ I'm UI / UX designer. The goal is to become a front-end developer and expand you
 
 ## [](cv.md#technical-skills) Technical skills
 
-- HTML
-- CSS
-- JavaScript
-- PHP
-- SQL
-- Figma
+- HTML5, CSS3
+- JavaScript, PHP, SQL
+- Git, GitHub
+- VS Code, Sublime Text, IntelliJ IDEA
+- Figma, Adobe Photoshop, Adobe Illustrator
 
 -----
 
@@ -40,18 +39,23 @@ Write a function that will return the count of **distinct case-insensitive** alp
 
 ```js
 function duplicateCount(text){
-  text = text.toLowerCase();
-  let count = 0;
-  while(text.length > 0){
-    for(let i = 1; i < text.length; i++) {
-      if(text[0] === text[i]){
-        count++;
-        break;
+  text = text.toLowerCase()
+  let count = 0
+
+  while (text.length > 0) {
+    for (let i = 1; i < text.length; i++) {
+      if (text[0] === text[i]){
+        count++
+        break
       }
     }
-    text = text.split(text[0]).join('');
+
+    text = text.split(text[0]).join('')
+
   }
-  return count;
+
+  return count
+
 }
 ```
 
@@ -87,6 +91,3 @@ function duplicateCount(text){
 
 - English - A1
 - Russian - Native
-
------
-###### [rsschool-cv](https://artpotlov.github.io/rsschool-cv/)
