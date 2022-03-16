@@ -1,8 +1,8 @@
-# [](cv.md#artem-potlov) Artem Potlov
-### [](cv.md#junior-frontend-developer) Junior Front–end Developer
+# [](cv#artem-potlov) Artem Potlov
+### [](cv#junior-frontend-developer) Junior Front–end Developer
 
 -----
-## [](cv.md#contact-information) Contact information
+## [](cv#contact-information) Contact information
 - **E-mail:** potlov.artem@gmail.com
 - **Telegram:** [@artpotlov](https://t.me/artpotlov/)
 - **Discord:** Artem (@artpotlov)
@@ -11,13 +11,13 @@
 
 -----
 
-## [](cv.md#about-me) About me
+## [](cv#about-me) About me
 
 I'm UI / UX designer. The goal is to become a front-end developer and expand your knowledge in this area.
 
 -----
 
-## [](cv.md#technical-skills) Technical skills
+## [](cv#technical-skills) Technical skills
 
 - HTML5, CSS3
 - JavaScript, PHP, SQL
@@ -27,7 +27,7 @@ I'm UI / UX designer. The goal is to become a front-end developer and expand you
 
 -----
 
-## [](cv.md#code-example) Code Example
+## [](cv#code-example) Code Example
 
 KATA from [CodeWars](https://www.codewars.com/kata/54bf1c2cd5b56cc47f0007a1)
 
@@ -61,7 +61,7 @@ function duplicateCount(text){
 
 -----
 
-## [](cv.md#work-experience) Work Experience
+## [](cv#work-experience) Work Experience
 
 | Years       | Plase of work     | Position         |
 |:----------- |:--------------- |:---------------- |
@@ -70,16 +70,16 @@ function duplicateCount(text){
 
 -----
 
-## [](cv.md#education) Education
+## [](cv#education) Education
 
-### [](cv.md#higher-education) Higher education
+### [](cv#higher-education) Higher education
 
 | Year | University name                                                                                                                                                                                | Direction of training                            |
 |:---- |:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |:------------------------------------------------------- |
 | 2014 | Branch of the National University of Science and Technology MISIS                                                                                                                              | Automated information and management processing systems |
 | 2019 | Murom Institute (branch) Federal state budgetary Educational Institution of Higher Education "Vladimir State University named after Alexader Grigoryevich and Nickolay Grigoryevich Stoletovs" | Information Systems and Technologies                    |
 
-### [](cv.md#online-courses) Online courses
+### [](cv#online-courses) Online courses
 
 | Year | Course name                | Education platform | Certificate                            |
 |:---- |:-------------------------- |:------------------ |:-------------------------------------- |
@@ -87,7 +87,7 @@ function duplicateCount(text){
 
 -----
 
-## [](cv.md#languages) Languges
+## [](cv#languages) Languges
 
 - English - A1
 - Russian - Native
