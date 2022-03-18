@@ -1,19 +1,19 @@
 # [](cv#artem-potlov) Artem Potlov
-### [](cv#junior-frontend-developer) Junior Front–end Developer
+### [](cv#junior-frontend-developer) Junior Front – End Developer
 
 -----
 ## [](cv#contact-information) Contact information
 - **E-mail:** potlov.artem@gmail.com
 - **Telegram:** [@artpotlov](https://t.me/artpotlov/)
 - **Discord:** Artem (@artpotlov)
-- **Behance:** [@artpotlov](https://behance.net/artpotlov/)
-- **GitHub:** [@artpotlov](https://github.com/artpotlov/)
+- **Behance:** [artpotlov](https://behance.net/artpotlov/)
+- **GitHub:** [artpotlov](https://github.com/artpotlov/)
 
 -----
 
 ## [](cv#about-me) About me
 
-I'm UI / UX designer. The goal is to become a front-end developer and expand your knowledge in this area.
+My goal is to grow to a professional front-end developer.
 
 -----
 
@@ -63,31 +63,41 @@ function duplicateCount(text){
 
 ## [](cv#work-experience) Work Experience
 
-| Years       | Plase of work     | Position         |
-|:----------- |:--------------- |:---------------- |
-| 2018 – 2019 | Murom Institute | Designer         |
-| 2019 – 2022 | Freelance       | UI / UX Designer |
+- **2018 — 2019**
+  - Murom Institute
+    - Designer
+- **2019 — 2022**
+  - Freelance
+    - UI / UX Designer
 
 -----
 
 ## [](cv#education) Education
 
-### [](cv#higher-education) Higher education
+#### [](cv#higher-education) Higher education
 
-| Year | University name                                                                                                                                                                                | Direction of training                            |
-|:---- |:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |:------------------------------------------------------- |
-| 2014 | Branch of the National University of Science and Technology MISIS                                                                                                                              | Automated information and management processing systems |
-| 2019 | Murom Institute (branch) Federal state budgetary Educational Institution of Higher Education "Vladimir State University named after Alexader Grigoryevich and Nickolay Grigoryevich Stoletovs" | Information Systems and Technologies                    |
-
+- **2014**
+  - Branch of the National University of Science and Technology MISIS
+    - Automated information and management processing systems
+- **2019**
+  - Murom Institute (branch) Federal state budgetary Educational Institution of Higher Education «Vladimir State University named after Alexader Grigoryevich and Nickolay Grigoryevich Stoletovs»
+    - Information Systems and Technologies
 ### [](cv#online-courses) Online courses
 
-| Year | Course name                | Education platform | Certificate                            |
-|:---- |:-------------------------- |:------------------ |:-------------------------------------- |
-| 2021 | SQL. Interactive simulator | Stepik.org         | [Link](https://stepik.org/cert/947678) |
+- **2021**
+  - **[Stepik](https://stepik.org/)**
+    - [SQL. Interactive simulator](https://stepik.org/course/63054) / [Certificate](https://stepik.org/cert/947678)
+    - [Go (Golang) — First Meeting](https://stepik.org/course/100208) / [Certificate](https://stepik.org/cert/1377535)
+    - [PHP — First Meeting](https://stepik.org/course/87314)
+    - [Interface Design Fundamentals](https://stepik.org/course/53334)
+- **2022**
+  - **[RS School](https://rs.school/)**
+    - JavaScript Front-End Pre–School 2022 / [Certificate](https://app.rs.school/certificate/cvskgtc7)
+    - JavaScript Front–End 2022Q1 `In Progress`
 
 -----
 
 ## [](cv#languages) Languges
 
-- English - A1
-- Russian - Native
+- English `A1`
+- Russian `Native`
